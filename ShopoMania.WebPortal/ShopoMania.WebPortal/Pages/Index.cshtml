@@ -1,0 +1,212 @@
+﻿@page
+@model IndexModel
+
+
+<style>
+
+    .project_box {
+        border: 2px solid white
+    }
+</style>
+
+
+
+<header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+        <div class="container">
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!--Links-->
+                <ul class="navbar-nav mr-auto smooth-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://www.universe-intelligence.com">
+                            Universe Intelligence
+                        </a>
+                    </li>
+                    @*<li class="nav-item">
+                    <a class="nav-link title" href="#about" data-offset="90">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link title" href="#features" data-offset="90">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link title" href="#services" data-offset="90">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link title" href="#team" data-offset="90">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link title" href="#contact" data-offset="90">Contact</a>
+                </li>*@
+                </ul>
+
+                <!--Social Icons-->
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://www.facebook.com/UniverseIntelligence">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://twitter.com/universeInllige">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://www.linkedin.com/company/universe-intelligence">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://www.instagram.com/universeintelligence">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Video -->
+        <div id="home" class="view hm-black-light jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(/img/shopomania_bg.jpg);">
+        <div class="full-bg-img">
+            <div class="container flex-center">
+                <div class="row smooth-scroll" style="margin-top: -10%;">
+                    <div class="col-md-12 text-center white-text">
+                        <div class="wow fadeInDown" data-wow-delay="0.2s">
+
+                            <div>
+                                <h3 class="display-3 font-bold white-text mb-2">ShopoMania</h3>
+                            </div>
+
+                            <hr class="hr-light my-4">
+                            <h4 class="mt-2 mb-4 font-bold">#1 Blockchain Marketplace WordWide Network</h4>
+
+                            <div style="margin-top: 60px;margin-bottom: 20px; width: 100%">
+                                <img src="~/img/shopomania-main-running.png" style="width: 100px; margin: 0 auto" />
+                            </div>
+
+                            @*<div style="margin-bottom: 20px;">
+                                <h2 class="font-bold white-text mb-2">Universe Intelligence</h2>
+                            </div>*@
+
+
+                            <a href="#shopomania" data-offset="90" class="btn btn-rounded btn-outline-white waves-effect wow fadeInUp" data-wow-delay="0.2s"> Learn More</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<main>
+
+    <!-- Streak -->
+    <div class="container">
+        <!-- Section: Features v.4 -->
+        <section id="shopomania" class="section feature-box mb-5 pb-4">
+
+            <!-- Section heading -->
+            <h2 class="font_blue  text-center font-bold my-2 pb-3 pt-5 wow fadeIn" data-wow-delay="0.2s">ShopoMania</h2>
+
+            <!-- Section sescription -->
+            <p class="section-description pb-4 wow fadeIn" data-wow-delay="0.2s">
+                ShopoMania is decentralized blockchain marketplace where you can only buy the best quality products for variety  of cryptocurrencies. Let's get 90% off price from direct vendors by skipping middle man bureaucracy and monopoly barriers.
+            </p>
+            <!-- Grid row -->
+            <div class="row features-small wow fadeIn" data-wow-delay="0.2s">
+
+                <!-- Grid column -->
+                <div class="col-lg-4 col-md-12">
+                    <!-- Grid row -->
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa fa-cart-arrow-down font-gold"></i>
+                        </div>
+                        <div class="col-10 mb-2">
+                            <h4 class="feature-title">The Best Products</h4>
+                            <p class="grey-text">
+                                Our catalog is build from quality products proven by thousands of people and recognised associations. You have no need to review and compare products anymore we do it for you. Think about time which you can save to spend with your family or friends.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Grid row -->
+                    <!-- Grid row -->
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa fa-paper-plane font-gold"></i>
+                        </div>
+                        <div class="col-10 mb-2">
+                            <h4 class="feature-title">The Fastest Shipping</h4>
+                            <p class="grey-text">What if we tell that using blockchain shipping you can get product in reasonable amount of time and very low price in absolute secure and transparent way ? </p>
+                        </div>
+                    </div>
+                    <!-- Grid row -->
+                    <!-- Grid row -->
+                    @*<div class="row">
+                            <div class="col-2">
+                                <i class="fa fa fa-cubes font-gold"></i>
+                            </div>
+                            <div class="col-10 mb-2">
+                                <h4 class="feature-title">Free Genetic Bank</h4>
+                                <p class="grey-text">We store all medical data of your previous generations to find personal treatments of common disease which your relatives had. It helps to build special real-time warning to avoid any type of dangerous circumstances with your health.</p>
+                            </div>
+                        </div>*@
+                    <!-- Grid row -->
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+
+                <div class="col-lg-4 col-md-12 mb-1" style="text-align: center">
+                    <img src="~/img/shopomanialogo.png" alt="" class="z-depth-0 img-fluid" style="height: 400px;">
+                </div>
+                <!-- Grid column -->
+                <!-- Third column -->
+                <div class="col-lg-4 col-md-12">
+                    <!-- Grid row -->
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa fa-money font-gold"></i>
+                        </div>
+                        <div class="col-10 mb-2">
+                            <h4 class="feature-title">The Lowest Price</h4>
+                            <p class="grey-text">As you know the actual product cost is only 10% of item itself. The rest is middle management services which takes more than 60% in revenue. What if we can skip these dudes and get product directly from a vendor and save up to 90% ? </p>
+                        </div>
+                    </div>
+
+                    <!-- Grid row -->
+                    <!-- Grid row -->
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa fa-map font-gold"></i>
+                        </div>
+                        <div class="col-10 mb-2">
+                            <h4 class="feature-title">The Largest Overall</h4>
+                            <p class="grey-text">We truly believe that we can create the best and free marketplace which build for people and not for profit.  </p>
+                        </div>
+                    </div>
+                    <!-- Grid row -->
+                    <!-- Grid row -->
+                    @*<div class="row">
+                            <div class="col-2">
+                                <i class="fa fa-magic font-gold"></i>
+                            </div>
+                            <div class="col-10 mb-2">
+                                <h4 class="feature-title">Nano Surgery</h4>
+                                <p class="grey-text">DoctorAI will be able to create one of the most powerful surgery instruments which will guarantee 100% success rate of any treatment were replacement of any part of the body is required. </p>
+                            </div>
+                        </div>*@
+                    <!-- Grid row -->
+                </div>
+                <!-- Third column -->
+            </div>
+            <!-- Grid row -->
+
+        </section>
+        <!-- Section: Features v.4 -->
+    </div>
+
+
+</main>

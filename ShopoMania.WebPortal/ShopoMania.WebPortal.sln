@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopoMania.WebPortal", "ShopoMania.WebPortal\ShopoMania.WebPortal.csproj", "{1BA0D026-4114-4D2B-90DD-2B199BDA6991}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BA0D026-4114-4D2B-90DD-2B199BDA6991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA0D026-4114-4D2B-90DD-2B199BDA6991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA0D026-4114-4D2B-90DD-2B199BDA6991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA0D026-4114-4D2B-90DD-2B199BDA6991}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {168D5B88-3D05-4789-8140-D98BB95DE830}
+	EndGlobalSection
+EndGlobal

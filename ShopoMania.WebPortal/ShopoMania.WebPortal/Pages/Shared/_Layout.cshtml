@@ -1,0 +1,140 @@
+﻿@{
+    ViewData["Description"] = "ShopoMania is the number one Blockchain worldwide MarketPlace. The Best Product Quality, The Fastest Shippining, The Lowest Price, The Largest Overall.";
+}
+
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopoMania | Universe Intelligence Inc. </title>
+    <meta name="Description" content="@ViewData["Description"]" />
+    <meta property="og:description" content="@ViewData["Description"]" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="/css/mdb.min.css" rel="stylesheet">
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107224989-6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments) };
+        gtag('js', new Date());
+
+        gtag('config', 'UA-107224989-6');
+    </script>
+
+
+    <style>
+        body {
+            font-weight: 400;
+        }
+
+        @@media (max-width: 768px) {
+            .creative-lp .navbar:not(.top-nav-collapse) {
+                background: 0 0;
+            }
+        }
+
+
+        @@media (max-width: 740px) {
+            .full-height,
+            .full-height body,
+            .full-height header,
+            .full-height header .view {
+                height: 700px;
+            }
+        }
+
+
+        .creative-lp .hm-gradient .full-bg-img {
+            background: -webkit-linear-gradient(45deg,rgba(0, 24, 51,.7),rgba(3,3,4,.8) 100%);
+            background: linear-gradient(45deg,rgba(0, 24, 51,.8),rgba(3,3,4,.8) 100%);
+        }
+
+        .creative-lp .navbar:not(.top-nav-collapse) {
+            /*display:none;*/
+        }
+
+
+
+        /*.light-green-text-2 {
+            color: #ffec82 !important;
+        }*/
+        .font_yellow {
+            color: #ffec82;
+        }
+
+        .font-gold {
+            color: #7a752b;
+        }
+
+
+        .creative-lp .top-nav-collapse {
+            background-color: #001a20;
+        }
+
+            .creative-lp .top-nav-collapse .nav-item .nav-link {
+                color: #fff !important;
+            }
+
+
+        .btn-floating i {
+            color: #7a752b;
+        }
+
+        .btn-floating {
+            background: white;
+        }
+
+        .font_blue {
+            color: #2b587a
+        }
+
+        .hm-black-light .full-bg-img, .hm-green-strong-2 .mask {
+            background-color: #001833;
+            background-color: rgba(0, 24, 51,.4);
+        }
+    </style>
+</head>
+<body class="creative-lp">
+
+    @RenderBody()
+
+    <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="/js/mdb.min.js"></script>
+
+    <script>
+    // initialize lightbox
+    $(function () {
+        $("#mdb-lightbox-ui ").load("mdb-addons/mdb-lightbox-ui.html ");
+    });
+
+    /* WOW.js init */
+    new WOW().init();
+
+    $('.navbar-collapse a').click(function(){
+        $(".navbar-collapse ").collapse('hide');
+    });
+
+
+    @if (ViewData["ContactFormStatus"] != null)
+    {
+          <text>$('#contactFormModal').modal('toggle')</text>
+    }
+
+
+    </script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
